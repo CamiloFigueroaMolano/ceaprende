@@ -1,9 +1,9 @@
-.container-vehiculos {
+.contenedor-vehiculos {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border-bottom: 5px solid #DC661F;
+    border-bottom: 3px solid #DC661F;
 }
 
 .titulo__texto {
@@ -17,4 +17,19 @@
 .boton__texto{
     background-color: #DC661F;
     color: #FAFAFA;
+}
+
+.contenedor-acreditan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #1E1E1E;
+}
+
+.imagenes-acreditan{
+    display: flex;
+}
+
+.imagenes-acreditan__img{
+    width: 50%;
 }
