@@ -36,3 +36,14 @@
 font-family: pierSansLight;
 font-size: 10px;
 }
+
+@media screen and (min-width:768px) {
+  .slider__tarjetas{
+      margin-left: 13rem;
+  }
+  
+} 
+@media screen and (min-width:992px) {
+  
+  
+} 
