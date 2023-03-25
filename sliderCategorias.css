@@ -1,0 +1,49 @@
+@font-face {
+  font-family: pierSansBlack;
+  src: url(Fuentes/PierSans-FreeForPersonalUse/PierSans-Black.otf);
+}
+@font-face {
+  font-family: pierSansLight;
+  src: url(Fuentes/PierSans-FreeForPersonalUse/PierSans-Light.otf);
+}
+
+
+.custom-size {
+  background-color: #DC661F ;
+  border-radius: 80%;
+  width: 20%;
+  height: 7%;
+  
+}
+.col-4{
+  margin-left: 1em;
+}
+.slider__tarjetas{
+  position:relative;
+  margin-left: 2.5rem;
+  margin-right: 2rem;
+}
+.slider__titulo{
+  font-family:pierSansBlack;
+  text-align: center;
+}
+
+.slider__categoria--titulo{
+  font-family: pierSansLight; 
+}
+
+.slider__categoria--descripcion{
+font-family: pierSansLight;
+font-size: 10px;
+}
+
+@media screen and (min-width:768px) {
+  .slider__tarjetas{
+      margin-left: 13rem;
+  }
+  
+} 
+@media screen and (min-width:992px) {
+  
+  
+} 
