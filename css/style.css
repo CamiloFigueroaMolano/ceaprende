@@ -1,0 +1,11 @@
+@import "./header.css";
+@font-face {
+    font-family: PierSans;
+    src: url('../Fuentes/PierSans-FreeForPersonalUse/PierSans-Regular.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: PierSans;
+}

@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/sliderCategorias.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/inicio-carros.css">
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
 
   <title>Ceaprende</title>
   <link rel="icon" type="image/jpeg" href="./img/Timón.jpeg" />
@@ -15,8 +17,34 @@
 </head>
 
 <body>
-  <!--slider carros-->
+  <!-- header -->
+  <header>
+    <a href="index.html" class="logo">
+      <img src="./img/logo.svg" width="70" alt="Logo de la pagina web"/>
+    </a>
+    <nav id="menu">
+      <ul>
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Nosotros</a></li>
+        <li><a href="">Cursos de Conducción</a></li>
+        <li><a href="">Contactanos</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toogle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
 
+  <!-- Js -->
+  <script src="./js/script.js"></script>
+
+  <!-- Iconos de Fontawesome -->
+  <script
+    src="https://kit.fontawesome.com/4331e4fef3.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <!--slider carros-->
   <section class="contenedor-vehiculos">
 
     <div class="titulo">
@@ -110,6 +138,7 @@
 
   </section>
 
+  <!-- slider categorias -->
   <!--carrusel-->
   <section class=" slider carousel slide" id="mainSlider" data-ride="carousel">
 
@@ -190,7 +219,53 @@
         alt="">
     </div>
 
+    <!-- footer -->
+    <footer class="pieDePagina p-5 row">
+      <section class="links">
+        <h3 class="fs-3 titulo fw-bolder">DOCUMENTOS ASOCIADOS</h3>
+        <div class="lineablanca"></div>
+        <div class="row col-12 documentosAsociados">
+          <div class="izquierda col-6">
+            <a href="#"> Derechos y Deberes </a><br>
+            <a href="#"> Ley de tratameinto de datos </a><br>
+            <a href="#"> Escríbenos tus PQRS </a>
+          </div>
+          <div class="derecha col-6">
+            <a href="#"> falta </a><br>
+            <a href="#"> falta </a><br>
+            <a href="#"> falta </a>
+          </div>
+        </div>
+      </section>
 
+      <section class="horarios">
+        <h3 class="fs-3 titulo fw-bolder">HORARIOS</h3>
+        <div class="lineablanca"></div>
+        <div class="row col-12 horariostabla">
+            <div class="izh1 d-flex justify-content-between">
+                <p > Lunes a viernes</p>
+                <p> 10 a.m  -  7 p.m </p>              
+            </div>
+            <div class="izh2 pt-2 d-flex justify-content-between">
+                <p > Sabados</p>
+                <p> 10 a.m  -  7 p.m </p>              
+            </div>
+            <div class="derecha col-6">
+            </div>
+          </div>
+      </section>
+
+      <section class="Pagos">
+        <h3 class="fs-3 titulo fw-bolder">METODOS DE PAGO</h3>
+        <div class="lineablanca"></div>
+        <div class="imagenes pt-3 w-100">
+            <img src="./img/icon-pse.png" width="150" alt="">
+            <img src="./img/cc-mastercard.svg" width="100" alt="">
+            <img src="./img/cc-visa.svg" width="100" alt="">
+        </div>
+      
+      </section>
+    </footer>
 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
