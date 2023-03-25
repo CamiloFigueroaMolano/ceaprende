@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    transition: all 200ms linear;
+}
+
+.slide1{
+    opacity:1;
+}
+
+.slide2{
+    opacity:0;
+}
+
+.slide3{
+    opacity:0;
+}
+
+.slide4{
+    opacity:0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100hv;
+}
