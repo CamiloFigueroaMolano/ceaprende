@@ -1,6 +1,21 @@
 .imagen-titulo{
-    background-image: url("");
+    background-image: url("./img/VIA.png");
     background-repeat: none;
-    width: 100vw;
-    height: 20vh;
+    background-size: cover;
+    height: 8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.imagen-titulo__texto{
+    margin-bottom: 1.5rem;
+    width: 85%;
+    color: #FFFFFF;
+    border-bottom: 1.5px solid #FAEA28;
+}
+
+#boton-titulo {
+    background-color: #DC661F;
+    color: white;
 }
