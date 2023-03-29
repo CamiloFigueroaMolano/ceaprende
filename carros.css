@@ -18,6 +18,7 @@
 
 #breadcrumb-nav{
     color: #FFFFFF;
+    font-size: small;
 }
 
 #boton-titulo {
@@ -32,4 +33,9 @@
 .accordion-body__card{
     background-color: black;
     color: #FFFFFF;
+    padding: 1rem;
+}
+
+.accordion-body__card__imagen{
+    width: 10rem;
 }
