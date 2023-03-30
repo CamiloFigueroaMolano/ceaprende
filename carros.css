@@ -24,6 +24,7 @@
 #boton-titulo {
     background-color: #DC661F;
     color: #FFFFFF;
+    align-self: center;
 }
 
 .accordion-body__margen{
