@@ -7,6 +7,8 @@ header {
     justify-content: space-between;
     align-items: center;
     font-family: 'Inter', sans-serif;
+    
+ 
 }
 
 .logo {
@@ -22,6 +24,7 @@ header {
     color: #ffff;
     font-size: 25px;
     margin-right: 25px;
+   
 }
 
 header nav {
@@ -34,10 +37,14 @@ header nav {
     right: 0;
     transition: 0.3s ease-in-out;
     overflow: hidden;
+    height: max-content;
+    
 }
 
 .mostrar {
     width: 80vw;
+    z-index: 999;
+    
 }
 
 header nav ul {
@@ -47,6 +54,8 @@ header nav ul {
     margin-left: 32%;
     color: #F49638; /* color de los puntos*/
     margin-top: 50px;
+   
+    
 }
 
 header nav ul li a {
