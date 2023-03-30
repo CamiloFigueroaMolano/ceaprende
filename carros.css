@@ -28,7 +28,12 @@
 }
 
 .accordion-body__margen{
+    width: 200px;
+    height: 200px;
     border: 2px solid #DC661F;
+    position: relative;
+    top: 400px;
+    right: 20px;
 }
 
 .accordion-body__card{
