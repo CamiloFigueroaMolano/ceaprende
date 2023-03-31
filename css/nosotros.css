@@ -2,6 +2,10 @@
     font-family: pierSansBlack;
     src: url(../Fuentes/PierSans-FreeForPersonalUse/PierSans-Black.otf);
 }
+@font-face {
+    font-family: pierSansLight;
+    src: url(../Fuentes/PierSans-FreeForPersonalUse/PierSans-Light.otf);
+}
 
 .banner{
     position: relative;
@@ -29,11 +33,80 @@
     text-align: center;
     transform: translate(-50%, -50%);/*centrar elemento horizontal y verticalmente en su contenedor*/
     border-bottom: 1px solid #FAEA28;
-    margin-right: 0.5rem;
+    margin-right: 2em;
     
 }
-.breadcrumb {
+.banner__breadcrumb {
  
-position: absolute; }
+position: absolute;
+color: #ffffff;
+    width: 60%;
+    position: absolute;
+    font-family: pierSansBlack;
+    left: 50%;
+    top: 90%;
+    text-align: center;
+    transform: translate(-50%, -50%);/*centrar elemento horizontal y verticalmente en su contenedor*/
+   }
+
+.breadcrumb__items{
+    display: flex;
+    justify-content: center;
+    font-size:xx-small;
+    padding-right: 3.2em;
+    
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "-";
+}
+.breadcrumb-item.active{
+    color: #ffffff;
+}
+.home{
+    color: #ffffff;
+    text-decoration: none;
+}
+.nosotros__titulo{
+    margin-top: 0.8em;
+    padding-left: 0.8em;
+    color: #DC661F;
+    border-bottom: 1px solid #000000;
+}
+.nosotros__info{
+    font-family: pierSansLight;
+    font-size: 0.6em;
+    padding-left: 1.4rem;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0rem;
+    padding-bottom: 0.9rem;
+}
+.container__boton{
+    background: #DC661F;
+    border: none;
+    color: #FFFFFF;
+    font-size: 0.7em;
+    font-family: pierSansLight;
+}
+.receta__boton:hover{
+    cursor: pointer;/*cambia de flecha a mano*/
+    
+}
+.container__imagen{
+    background: url(../img/BLANCO\ 1.png);
+    background-size: cover;
+    width: 50%;
+    height: 148px;
+}
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
   
   
