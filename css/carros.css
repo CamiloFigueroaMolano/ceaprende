@@ -1,5 +1,5 @@
 .imagen-titulo{
-    background-image: url("./img/VIA.png");
+    background-image: url("../img/VIA.png");
     background-repeat: none;
     background-size: cover;
     height: 8rem;
@@ -28,20 +28,34 @@
 }
 
 .accordion-body__margen{
-    width: 200px;
-    height: 200px;
-    border: 2px solid #DC661F;
+    width: auto;
+    height: auto;
+    border: 4px solid #DC661F;
+    border-radius: 15px;
     position: relative;
-    top: 400px;
-    right: 20px;
 }
 
 .accordion-body__card{
     background-color: black;
     color: #FFFFFF;
+    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
     padding: 1rem;
 }
 
-.accordion-body__card__imagen{
-    width: 10rem;
+.accordion-body__imagen1 {
+    background: linear-gradient(
+        to bottom,
+        black,
+        black 3.5rem,
+        transparent 1rem,
+        transparent 100%
+    );
+    border-radius: 0 0 15px 0;
+}
+
+.accordion-body__imagen {
+    width: 200px;
+    position: relative;
+    left: 5rem;
 }
