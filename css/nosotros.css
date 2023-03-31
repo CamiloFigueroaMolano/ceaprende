@@ -70,7 +70,7 @@ color: #ffffff;
     margin-top: 0.8em;
     padding-left: 0.8em;
     color: #DC661F;
-    border-bottom: 1px solid #000000;
+    
 }
 .nosotros__info{
     font-family: pierSansLight;
@@ -104,9 +104,12 @@ color: #ffffff;
 .linea {
     border-top: 1px solid black;
     height: 2px;
-    max-width: 200px;
+    max-width: 380px;
     padding: 0;
-    margin: 20px auto 0 auto;
+    margin-top: none;
+    margin-left: auto;
+    margin-right: 0.2em;
+    margin-bottom: 0.4rem;
   }
   
   
