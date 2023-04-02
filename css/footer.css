@@ -1,5 +1,17 @@
 footer {
     background-color: #757576;
+    border-color: #757576;
+}
+
+.titulo_nosacreditan{
+    width: 100%;
+    color:black;
+    text-align: center;
+    background-color:white
+}
+
+.logos_nosacreditan{
+   scale:1.2;
 }
 
 .lineablanca {
@@ -42,7 +54,7 @@ p {
 }
 
 .imagenes {
-    width: 100;
+    width: 100%;
     text-align:center;
     margin: 0.5rem;
     padding-right: 0.5rem;
