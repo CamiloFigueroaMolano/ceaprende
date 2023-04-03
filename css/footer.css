@@ -2,6 +2,11 @@ footer {
     background-color: #757576;
 }
 
+.pieDePagina{
+    width: 100%;
+    margin-left: 0;
+}
+
 .lineablanca {
     border-top: solid;
     border-color: white;
@@ -23,10 +28,10 @@ a {
     text-align: center;
 }
 
-.derecha,
+/*.derecha,
 .izquierda {
     text-align: center;       
-}
+}*/
 
 p {
     margin-top: 0.5rem;
@@ -42,7 +47,7 @@ p {
 }
 
 .imagenes {
-    width: 100;
+    width: 100%;
     text-align:center;
     margin: 0.5rem;
     padding-right: 0.5rem;
@@ -51,7 +56,5 @@ p {
 img {
     margin: 0.5rem;
     color: white;
-}
-.documentosAsociados{
-    text-decoration: none;
+
 }

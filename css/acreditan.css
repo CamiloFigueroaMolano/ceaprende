@@ -1,0 +1,20 @@
+.contenedor-acreditan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #1E1E1E;
+    margin-top: 0.2rem;
+    padding: 1rem 0.5rem;
+    width: 100%;
+}
+
+.imagenes-acreditan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.imagenes-acreditan__img{
+    width: 45%;
+}

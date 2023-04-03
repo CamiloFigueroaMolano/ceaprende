@@ -1,0 +1,61 @@
+.imagen-titulo{
+    background-image: url("../img/VIA.png");
+    background-repeat: none;
+    background-size: cover;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.imagen-titulo__texto{
+    margin-bottom: 1.5rem;
+    width: 85%;
+    color: #FFFFFF;
+    border-bottom: 2px solid #FAEA28;
+}
+
+#breadcrumb-nav{
+    color: #FFFFFF;
+    font-size: small;
+}
+
+#boton-titulo {
+    background-color: #DC661F;
+    color: #FFFFFF;
+    align-self: center;
+}
+
+.accordion-body__margen{
+    width: auto;
+    height: auto;
+    border: 4px solid #DC661F;
+    border-radius: 15px;
+    position: relative;
+}
+
+.accordion-body__card{
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
+    padding: 1rem;
+}
+
+.accordion-body__imagen1 {
+    background: linear-gradient(
+        to bottom,
+        black,
+        black 3.5rem,
+        transparent 1rem,
+        transparent 100%
+    );
+    border-radius: 0 0 15px 0;
+}
+
+.accordion-body__imagen {
+    width: 200px;
+    position: relative;
+    left: 5rem;
+}
