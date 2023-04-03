@@ -1,17 +1,10 @@
 footer {
     background-color: #757576;
-    border-color: #757576;
 }
 
-.titulo_nosacreditan{
+.pieDePagina{
     width: 100%;
-    color:black;
-    text-align: center;
-    background-color:white
-}
-
-.logos_nosacreditan{
-   scale:1.2;
+    margin-left: 0;
 }
 
 .lineablanca {
@@ -35,10 +28,10 @@ a {
     text-align: center;
 }
 
-.derecha,
+/*.derecha,
 .izquierda {
     text-align: center;       
-}
+}*/
 
 p {
     margin-top: 0.5rem;

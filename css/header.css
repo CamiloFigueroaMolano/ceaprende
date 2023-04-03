@@ -1,7 +1,5 @@
-
 header {
-
-    width: 100%;
+    width: 100vw;
     height: 75px;
     background-image: url(../img/nvbkg.jpg);
     background-repeat: no-repeat;
@@ -9,7 +7,7 @@ header {
     justify-content: space-between;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    background-color: #F49638;
+    background-color: #DC661F;
 }
 
 .logo {
@@ -31,13 +29,13 @@ header nav {
     position: absolute;
     top: 77px;
     background-image: url(../img/Navegacion.JPG);    
-    z-index: 3;
     background-size:cover;
     width: 0;
     height: 40vh;   
     right: 0;
     transition: 0.3s ease-in-out;
     overflow: hidden;
+    z-index: 3;
 }
 
 .mostrar {
@@ -49,7 +47,7 @@ header nav ul {
     flex-direction: column;
     gap: 10px;
     margin-left: 32%;
-    color: #F49638; /* color de los puntos*/
+    color: #DC661F; /* color de los puntos*/
     margin-top: 50px;
 }
 
@@ -73,7 +71,7 @@ header nav ul li a {
         align-items: center;
         justify-content: flex-end;
         background-image: none;
-        background-color: #F49635;
+        background-color: #DC661F;
     }
     header nav ul {
         flex-direction: row;

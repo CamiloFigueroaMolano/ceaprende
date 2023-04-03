@@ -1,4 +1,8 @@
 @import "./header.css";
+@import "./footer.css";
+@import "contactenos.css";
+
+
 @font-face {
     font-family: PierSans;
     src: url('../Fuentes/PierSans-FreeForPersonalUse/PierSans-Regular.otf');
