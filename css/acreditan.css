@@ -10,8 +10,11 @@
 
 .imagenes-acreditan{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .imagenes-acreditan__img{
-    width: 50%;
+    width: 45%;
 }
