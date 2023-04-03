@@ -1,0 +1,72 @@
+main{
+    background:url(../img/fondo.jpg)
+}
+footer{
+    width:100%;
+    background-color: gray-lighter;
+}
+.imagen_portada{
+    height:10%;
+    margin-top: -.1rem;
+    width: 99%;
+    text-align:center;
+   
+}
+
+a{
+    color: white    ;
+}
+
+.imagen_A1_2,
+.imagen_C1_2{
+    scale: .6;
+    margin-left: -15%;
+    margin-right: 15%;
+    height: 100%;
+}
+.B1_automovil2{
+    width: 190px;
+    height: 300px;
+    margin-left: -2rem;
+    
+    
+}
+
+.imagen_B1_2{
+
+    text-align: right; 
+    padding-top: 15%;
+}
+
+.contenido_A1,
+.contenido_B1,
+.contenido_C1{
+    padding-top: 5%;
+    justify-content: center;
+    vertical-align: middle;
+    z-index: 2;
+    
+}
+
+.B1_automovil{    
+
+    text-align: right;
+    
+
+}
+
+.imagen_B1{    
+    text-align: right;
+}
+
+
+.subtitulos{
+    text-align:center;
+    color:rgb(255, 103, 48);
+    font-weight: bolder;
+}
+
+.descripciones_horas{
+    text-align:center;
+   
+}
