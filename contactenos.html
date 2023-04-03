@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />    
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/footer.css" />      
+
+    <title>Ceaprende</title>
+    <link rel="icon" type="image/jpeg" href="./img/Timón.jpeg" />
+
+
+
+  </head>
+  <body>
+       <!--Navbar-->
+       <header>
+        <a href="index.html" class="logo">
+          <img src="./img/logo.svg" width="70" alt="Logo de la pagina web"/>
+        </a>
+        <nav id="menu">
+          <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">Cursos de Conducción</a></li>
+            <li><a href="">Contactanos</a></li>
+          </ul>
+        </nav>
+        <button class="menu-toogle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </header>
+
+      <!-- imagen ini -->
+      <div class="portada">
+        <img class="portada-img w-100" src="./img/contac.JPG" alt="imagen portada">
+      </div>
+
+      <section class="informacion">
+        <div>
+            <h3 class="titulos">SEDE :</h3>
+            <p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+        </div>
+        <div>
+            <h3 class="titulos">HORARIO :</h3>
+            <p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+        </div>
+        <div>
+            <h3 class="titulos">TELEFONO :</h3>
+            <p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+        </div>
+        <div>
+            <h3 class="titulos">CORREOS :</h3>
+            <p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+        </div>
+      </section>
+  
+      <!--formulario-->
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <div class="area mx-auto mt-5 formulario-ancho">
+                    <div class="cotizacion"><span>
+                        <h2><span>SOLICITA</span><span>COTIZACIÓN</span></h2>
+                    </span>
+  
+                    <span>
+                        <form id="myForm">
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control input-ancho" id="nombre" name="nombre" placeholder="Nombre completo" required>
+                            </div>
+                            <div class="form-group mb-3
+                            ">
+                                <input type="text" class="form-control input-ancho" id="cedula" name="cedula" placeholder="Cédula" required>
+                            </div>
+                            <div class="form-group mb-3
+                            ">
+                                <input type="email" class="form-control input-ancho" id="correo" name="correo" placeholder="Correo electrónico" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="tel" class="form-control input-ancho" id="telefono" name="telefono" placeholder="Teléfono" required>
+                            </div>
+                            <div class="text-center mt-2">
+                                <button type="submit" class="btn btn-lg btn-ancho">Enviar</button>
+                            </div>
+                        </form>
+                    </div></span>
+  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Nos acredita-->
+    <section class="nosAcreditan">
+        <h1 class="titulo-nosAcreditan">NOS ACREDITAN</h1>
+        <div class="row justufy-content-around p-5 imagenes-nosAcreditan">
+            <img src="./img/Mintransporte_Colombia.svg" alt="" class="imagenTrans w-25">
+            <img src="./img/Mintransporte_Colombia.svg" alt="" class="imagenTrans w-25">
+        </div>
+    </section>
+    
+      <!--pie de pagina-->
+      <footer class="pieDePagina p-5 row">
+        <section class="links">
+          <h3 class="fs-3 titulo fw-bolder">DOCUMENTOS ASOCIADOS</h3>
+          <div class="lineablanca"></div>
+          <div class="row col-12 documentosAsociados">
+            <div class="izquierda col-6">
+              <a href="#"> Derechos y Deberes </a><br>
+              <a href="#"> Ley de tratameinto de datos </a><br>
+              <a href="#"> Escríbenos tus PQRS </a>
+            </div>
+            <div class="derecha col-6">
+              <a href="#"> falta </a><br>
+              <a href="#"> falta </a><br>
+              <a href="#"> falta </a>
+            </div>
+          </div>
+        </section>
+  
+        <section class="horarios">
+          <h3 class="fs-3 titulo fw-bolder">HORARIOS</h3>
+          <div class="lineablanca"></div>
+          <div class="row col-12 horariostabla">
+              <div class="izh1 d-flex justify-content-between">
+                  <p > Lunes a viernes</p>
+                  <p> 10 a.m  -  7 p.m </p>              
+              </div>
+              <div class="izh2 pt-2 d-flex justify-content-between">
+                  <p > Sabados</p>
+                  <p> 10 a.m  -  7 p.m </p>              
+              </div>
+              <div class="derecha col-6">
+              </div>
+            </div>
+        </section>
+  
+        <section class="Pagos">
+          <h3 class="fs-3 titulo fw-bolder">METODOS DE PAGO</h3>
+          <div class="lineablanca"></div>
+          <div class="imagenes pt-3 w-100">
+              <img src="./img/icon-pse.png" width="150" alt="">
+              <img src="./img/cc-mastercard.svg" width="100" alt="">
+              <img src="./img/cc-visa.svg" width="100" alt="">
+          </div>
+         
+        </section>
+      </footer>
+  
+      
+  
+      <!-- Js -->
+      <script src="./JS/script.js"></script>
+  
+      <!-- Iconos de Fontawesome -->
+      <script
+        src="https://kit.fontawesome.com/4331e4fef3.js"
+        crossorigin="anonymous"
+      ></script>
+  </body>
+</html>
