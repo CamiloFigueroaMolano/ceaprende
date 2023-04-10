@@ -20,7 +20,7 @@
 }
 .slider__tarjetas{
   position:relative;
-  margin-left: 2.5rem;
+ align-items: center;
   margin-right: 2rem;
 }
 .slider__titulo{
@@ -39,7 +39,7 @@ font-size: 10px;
 
 @media screen and (min-width:768px) {
   .slider__tarjetas{
-      margin-left: 13rem;
+      padding-left: 16em;
   }
   
 } 
