@@ -38,9 +38,9 @@
 .banner__linea{
     border-top: 1px solid #FAEA28;
     height: 2px;
-    max-width: 380px;
+    width: 80%;
     padding: 0;
-    margin-left: auto;
+    margin-left: 0em;
     margin-right: 0em;
     margin-bottom: 0.4rem;
     transform: translate(-50px, -30px);
@@ -87,7 +87,7 @@ color: #ffffff;
 .nosotros__linea {
     border-top: 1px solid black;
     height: 2px;
-    max-width: 380px;
+    width: 80%;
     padding: 0;
     margin-left: auto;
     margin-right: 0em;
@@ -100,12 +100,15 @@ color: #ffffff;
     padding-left: 1.4rem;
     margin-top: 1rem;
 }
+
+
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 0rem;
     padding-bottom: 0.9rem;
+    padding-top: 1.7rem;
 }
 .container__boton {
     background: #DC661F;
@@ -139,6 +142,8 @@ color: #ffffff;
     background-size: cover;
     width: 50%;
     height: 148px;
+    float: right;
+    max-width: 100%;
 }
 .container2{
     height: 18em;
@@ -183,6 +188,100 @@ color: #ffffff;
     font-size: 0.6em;
     padding-left: 1.4rem;
     margin-top: 1rem;
-    transform: translate(-0%, -500%);
+    transform: translate(1%, -200%);
 }
-  
+
+@media screen and (min-width:768px) {
+    .banner__imagen{
+        height: 258px;
+
+    }
+    .banner__titulo{
+        font-size: 32px;
+        top: 80%;
+    }
+    .banner__breadcrumb{
+        top: 95%;
+    }
+    .breadcrumb__items{
+        font-size: small;
+    }
+    .nosotros__titulo{
+        font-size: 64px;
+    }
+    .nosotros__info-imagen{
+        background: url(../img/equipoCeaprende.jpg);
+        background-size: cover;
+        position: relative;
+        width: 244%;
+        height: 154px;
+        left: -23px;
+        float: right;
+        max-width: 100%;
+        border-radius: 1.3rem;
+    }
+    .nosotros__seccion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 0rem;
+        padding-bottom: 0.9rem;
+        padding-top: 1.7rem;
+
+    }
+    .nosotros__info{
+        font-size: 14px;
+    }
+    .container{
+        justify-content: space-around;
+        padding-bottom: 2rem;
+    }
+    .container__imagen{
+        height: 300px;
+        left: 80px;
+        position: relative;
+    }
+    .container__boton{
+        font-size: 1.2em;
+        width: 129px;
+        height: 70px;
+    }
+    .container2__titulo1{
+        position: relative;
+        top: 25%;
+        font-size: 48px;
+    }
+    .container2__titulo2{
+        position: relative;
+        top: -20%;
+        font-size: 55px;
+    }
+    .container2__info{
+        font-size: 14px;
+        transform: translate(1%, -280%);
+    }
+  } 
+  @media screen and (min-width:992px) {
+    .nosotros__info-imagen{
+        width: 300px;
+        height: 380px;
+        padding-right: 30rem;
+        padding-left: 6rem;
+        
+    }
+    .nosotros__info{
+        font-size: 18px;
+    }
+    .container__imagen{
+        
+        left: 190px;
+        height: 553px;
+        width: 617px;
+        
+    }
+    .container2__info{
+        font-size: 18px;
+        transform: translate(1%, -322%);
+        margin-top: 1rem;
+    }
+  }

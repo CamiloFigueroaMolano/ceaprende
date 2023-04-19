@@ -1,3 +1,67 @@
+.banner__titulo{
+  position: absolute;
+  color: #ffff;
+  width: 60%;
+  font-size: xx-large;
+  font-weight: bolder;
+  left: 45%;
+  top: 60%;  
+}
+
+.imagen-titulo{
+  background-image: url("../img/edificio.JPG");
+  background-repeat: none;
+  background-size: cover;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.imagen-titulo__texto{  
+  margin-bottom: 1.5rem;
+  width: 85%;
+  color: #FFFFFF;
+  border-bottom: 2px solid #DC661F;
+}
+
+.banner__breadcrumb {
+ 
+position: absolute;
+color: #ffff;
+    width: 60%;
+    position: absolute;    
+    left: 50%;
+    top: 90%;
+    text-align: center;
+    transform: translate(-45%, -350%);
+   }
+
+.breadcrumb__items{
+    display: flex;
+    justify-content: center;
+    font-size:larger;
+    padding-right: 3.2em;
+    
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "-";
+    color: #ffff;
+}
+.breadcrumb-item.active{
+    color: #ffff;
+}
+.home{
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before{
+  content: "-";
+}
+
 .portada-img {
     margin-top: -0.01rem;
     margin-left: -0.01rem;
