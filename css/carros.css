@@ -1,3 +1,12 @@
+@font-face {
+    font-family: pierSansBlack;
+    src: url(../Fuentes/PierSans-FreeForPersonalUse/PierSans-Black.otf);
+}
+@font-face {
+    font-family: pierSanslight;
+    src: url(../Fuentes/PierSans-FreeForPersonalUse/PierSans-Light.otf);
+}
+
 .imagen-titulo{
     background-image: url("../img/VIA.png");
     background-repeat: none;
@@ -10,10 +19,15 @@
 }
 
 .imagen-titulo__texto{
+    font-family: pierSansBlack;
     margin-bottom: 1.5rem;
     width: 85%;
     color: #FFFFFF;
     border-bottom: 2px solid #FAEA28;
+}
+
+#parrafo-inicial{
+    font-family: pierSanslight;
 }
 
 #breadcrumb-nav{
@@ -22,6 +36,7 @@
 }
 
 #boton-titulo {
+    font-family: pierSansBlack;
     background-color: #DC661F;
     color: #FFFFFF;
     align-self: center;
@@ -43,6 +58,10 @@
     padding: 1rem;
 }
 
+.accordion-body__card h3, p {
+    font-family: pierSanslight;
+}
+
 .accordion-body__imagen1 {
     background: linear-gradient(
         to bottom,
@@ -55,7 +74,19 @@
 }
 
 .accordion-body__imagen {
-    width: 200px;
+    width: 70%;
     position: relative;
-    left: 5rem;
+    left: 15%;
+    border-radius: 200px;
+}
+
+@media screen and (min-width:768px) {
+    .imagen-titulo{
+        background-size: cover;
+    }
+
+    .accordion-body__imagen {
+        width: 30%;
+        left: 30%;
+    }
 }
