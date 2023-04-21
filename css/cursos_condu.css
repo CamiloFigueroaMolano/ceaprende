@@ -1,3 +1,12 @@
+@font-face {
+    font-family: pierSansBlack;
+    src: url(../Fuentes/PierSans-FreeForPersonalUse/PierSans-Black.otf);
+}
+@font-face {
+    font-family: pierSanslight;
+    src: url(../Fuentes/PierSans-FreeForPersonalUse/PierSans-Light.otf);
+}
+
 main{
     background:url(../img/fondo.jpg)
 }
@@ -5,13 +14,55 @@ footer{
     width:100%;
     background-color: gray-lighter;
 }
-.imagen_portada{
-    height:10%;
-    margin-top: -.1rem;
-    width: 99%;
-    text-align:center; 
-    z-index: 1;
+
+
+#imagen-titulo-categorias{
+    background-image: url("../img/fondocategoriasencabezado.jpg");
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
+
+.imagen-titulo__texto-categorias{  
+    margin-bottom: 1.5rem;
+    width: 85%;
+    color: #FFFFFF;
+    border-bottom: 2px solid #DC661F;
+}
+
+#imagen-titulo__texto-categorias{
+    font-family: pierSansBlack;
+    margin-bottom: 1.5rem;
+    width: 85%;
+    color: #FFFFFF;
+    border-bottom: 2px solid #FAEA28;
+}
+.breadcrumb-item+.breadcrumb-item:before{
+    content: "-";
+    color: #ffff;
+}
+.breadcrumb-item.active{
+    color: #ffff;
+}
+
+#breadcrumb-nav-categorias{
+    color: #FFFFFF;
+    font-size: small;
+}
+
+.barranaranja{
+    width: 85%;
+    color: #DC661F;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-top: -0.5rem;
+}
+
 .tituloescrito{
     z-index: 2;
     font-size: 3rem;
@@ -67,6 +118,10 @@ a{
     text-align:center;
     color:rgb(255, 103, 48);
     font-weight: bolder;
+}
+
+.descripciones{
+    text-align:justify;
 }
 
 .descripciones_horas{
