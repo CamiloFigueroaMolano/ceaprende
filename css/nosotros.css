@@ -62,7 +62,7 @@
 .breadcrumb__items1{
     display: flex;
     justify-content: center;
-    font-size:xx-small;
+    font-size:xx-small; 
     padding-right: 3.2em;
     
 }

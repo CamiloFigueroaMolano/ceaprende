@@ -1,3 +1,13 @@
+@font-face {
+  font-family: pierSansBlack;
+  src: url(../Fuentes/PierSans-FreeForPersonalUse/PierSans-Black.otf);
+}
+@font-face {
+  font-family: pierSansLight;
+  src: url(../Fuentes/PierSans-FreeForPersonalUse/PierSans-Light.otf);
+}
+
+
 .banner__titulo{
   position: absolute;
   color: #ffff;
@@ -6,10 +16,11 @@
   font-weight: bolder;
   left: 45%;
   top: 60%;  
+  
 }
 
 .imagen-titulo{
-  background-image: url("../img/edificio.JPG");
+  background-image: url("../img/contactenos.jpg");
   background-repeat: none;
   background-size: cover;
   height: 8rem;
@@ -17,13 +28,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  
 }
 
 .imagen-titulo__texto{  
   margin-bottom: 1.5rem;
   width: 85%;
   color: #FFFFFF;
-  border-bottom: 2px solid #DC661F;
+  border-bottom: 1px solid #DC661F;
+  font-family: pierSansBlack;
+  font-size: large;
 }
 
 .banner__breadcrumb {
@@ -32,16 +46,16 @@ position: absolute;
 color: #ffff;
     width: 60%;
     position: absolute;    
-    left: 50%;
+    left: 47%;
     top: 90%;
     text-align: center;
-    transform: translate(-45%, -350%);
+    transform: translate(-45%, -1407%);
    }
 
 .breadcrumb__items{
     display: flex;
     justify-content: center;
-    font-size:larger;
+    font-size:xx-small;
     padding-right: 3.2em;
     
 }
@@ -135,4 +149,30 @@ color: #ffff;
 
   .imagenTrans {
     scale: 2;
+  }
+
+
+  @media screen and (min-width:768px) {
+
+    .imagen-titulo{
+      height: 258px;
+    }
+    .imagen-titulo__texto{
+      font-size: 48px;
+      top: 72%;
+  }
+  
+  
+  .banner__breadcrumb{
+      top: 79%;
+  }
+  .breadcrumb__items{
+      font-size: small;
+  }
+  }
+
+  @media screen and (min-width:992px) {
+    .banner__breadcrumb{
+      top: 120%;
+  }
   }
