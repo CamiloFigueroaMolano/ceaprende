@@ -20,7 +20,8 @@
 }
 
 .imagen-titulo{
-  background-image: url("../img/contactenos.jpg");
+  background-image: url("../img/contactanosmoto2.jpg");
+  background-position: bottom;
   background-repeat: none;
   background-size: cover;
   height: 8rem;
