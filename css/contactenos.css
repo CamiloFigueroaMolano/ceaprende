@@ -6,7 +6,9 @@
   font-family: pierSansLight;
   src: url(../Fuentes/PierSans-FreeForPersonalUse/PierSans-Light.otf);
 }
-
+.pantalla{
+  position: relative;
+}
 
 .banner__titulo{
   position: absolute;
@@ -29,6 +31,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  position: relative;
   
 }
 
@@ -50,7 +53,7 @@ color: #ffff;
     left: 47%;
     top: 90%;
     text-align: center;
-    transform: translate(-45%, -1407%);
+    transform: translate(-50%, -15%);
    }
 
 .breadcrumb__items{
@@ -69,7 +72,7 @@ color: #ffff;
 }
 .home{
     color: #ffff;
-    text-decoration: none;
+    
 }
 
 
@@ -165,7 +168,7 @@ color: #ffff;
   
   
   .banner__breadcrumb{
-      top: 79%;
+      top: 93%;
   }
   .breadcrumb__items{
       font-size: small;
@@ -174,6 +177,6 @@ color: #ffff;
 
   @media screen and (min-width:992px) {
     .banner__breadcrumb{
-      top: 120%;
+      top: 93%;
   }
   }
