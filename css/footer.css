@@ -54,7 +54,45 @@ p {
     padding-right: 0.5rem;
 }
 
+/* Estilos para los enlaces en la clase .izquierda */
+.documentosAsociados .izquierda a {
+    display: block; /* Hacer que los enlaces sean bloques */
+    text-align: center; /* Centrar el texto en el enlace */
+    margin-bottom: 10px; /* Agregar un espacio entre enlaces */
+}
+
+/* Estilos para los enlaces en la clase .derecha */
+.documentosAsociados .derecha a {
+    display: block; /* Hacer que los enlaces sean bloques */
+    text-align: center; /* Centrar el texto en el enlace */
+    margin-bottom: 10px; /* Agregar un espacio entre enlaces */
+}
+
 img {
     margin: 0.5rem;
     color: white;
+}
+
+.contenedor-made-by {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+
+}
+
+.parrafocont {
+    margin-left: -190px;
+    margin-right: -190px;
+}
+
+.contenedor-made-by img {
+    width: 12%;
+    text-align: center;
+
 }

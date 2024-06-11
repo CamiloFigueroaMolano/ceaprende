@@ -10,7 +10,7 @@
     <script src="../js/jquery-3.6.4.min.js"></script>      
 
     <title>Ceaprende</title>
-    <link rel="icon" type="image/jpeg" href="../img/Timón.jpeg" />
+    <link rel="icon" type="image/jpeg" href="/img/Tim¢n.jpeg" />
 
 
 
@@ -26,7 +26,7 @@
           <h3 class="imagen-titulo__texto">Contáctanos</h3>
           <nav class="banner__breadcrumb" aria-label="breadcrumb">
             <ol class="breadcrumb__items">
-              <li class="breadcrumb-item"><a class="home" href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a class="home" href="/index.html">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">Contáctanos</li>
             </ol>
           </nav>
@@ -67,20 +67,27 @@
                     </span>
   
                     <span>
-                        <form id="myForm">
+                      <script type="text/javascript">var submitted = false</script>
+                      <iframe name="confirm" id="confirm" style="display: none;"
+                      onload="if (submitted){window.location='contactenos.html';}"></iframe>
+                        
+                      <form id="myForm" id="contactanos"
+                      action="https://docs.google.com/forms/d/e/1FAIpQLSeu_lG47xWVMAR_8EZNJjxVURtwDqMrqp8TYcwt6Fi7dMcJgQ/formResponse"
+                      method="post" target="confirm" onsubmit="submitted=true">
+
                             <div class="form-group mb-3">
-                                <input type="text" class="form-control input-ancho" id="nombre" name="nombre" placeholder="Nombre completo" required>
+                                <input type="text" class="form-control input-ancho" id="nombre" name="entry.1884265043" placeholder="Nombre completo" required>
                             </div>
                             <div class="form-group mb-3
                             ">
-                                <input type="text" class="form-control input-ancho" id="cedula" name="cedula" placeholder="Cédula" required>
+                                <input type="text" class="form-control input-ancho" id="cedula" name="entry.546926547" placeholder="Cédula" required>
                             </div>
                             <div class="form-group mb-3
                             ">
-                                <input type="email" class="form-control input-ancho" id="correo" name="correo" placeholder="Correo electrónico" required>
+                                <input type="email" class="form-control input-ancho" id="correo" name="entry.1737446380" placeholder="Correo electrónico" required>
                             </div>
                             <div class="form-group mb-3">
-                                <input type="tel" class="form-control input-ancho" id="telefono" name="telefono" placeholder="Teléfono" required>
+                                <input type="tel" class="form-control input-ancho" id="telefono" pattern="[0-9]{10}" name="entry.69450958" placeholder="Celular" required title="Por favor, ingresa un número de celular válido con 10 dígitos" required>
                             </div>
                             <div class="text-center mt-2">
                                 <button type="submit" class="btn btn-lg btn-ancho">Enviar</button>
